@@ -1,0 +1,9 @@
+#pragma once
+
+#include <string_view>
+
+namespace project_config
+{
+inline constexpr std::string_view source_root =
+    R"(@PROJECT_SOURCE_ROOT@)";
+}
